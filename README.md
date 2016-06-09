@@ -2,7 +2,7 @@
 
 A cross platform OpenGL ES Emulation Layer for Android
 
-Inside our Leapdroid virtual machine, we have implemented a very roubust OpenGL EL translator (based on Google's original Android emulator's implementation - QEMU OpenGL Pipe). It provides native performance, and can be used to play Android games with better experience than any real Android devices.
+Inside our Leapdroid virtual machine, we have implemented a very roubust OpenGL (GLES) translator (based on Google's original Android emulator's implementation - QEMU OpenGL Pipe). It provides native performance, and can be used to play Android games with better experience than any real Android devices.
 
 The Android side contains encoders to forward GLES calls to the rendering side, and the rendering side has decoders to decode the parameters and send them to host engine for rendering. 
 
