@@ -2,7 +2,7 @@
 
 A cross platform OpenGL ES Emulation Layer for Android
 
-Inside our Leapdroid virtual machine, we have implemented a very roubust OpenGL EL translator (based on Google's original Android emulator implementations).
+Inside our Leapdroid virtual machine, we have implemented a very roubust OpenGL EL translator (based on Google's original Android emulator's implementation).
 
 The Android side contains encoders to forward GLES calls to the rendering side, and the rendering side has decoders to decode the parameters and send them to host engine for rendering. 
 
